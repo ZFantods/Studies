@@ -12,6 +12,12 @@ Este repositório é dedicado ao meu processo de aprendizado em programação. A
 - **Projetos de Estudos**: Exercícios e mini-projetos voltados para a prática de conceitos aprendidos em cursos, tutoriais e livros.
 - **Melhoria Contínua**: Iniciativas para melhorar a lógica de programação, a organização do código e a adoção de boas práticas no desenvolvimento de software.
 
+# Courses 💾
+
+### 🖌️ HTML&CSS
+- **[A partir do zero: HTML e CSS para projetos web](https://cursos.alura.com.br/formacao-html-css)** / [GithubPage](https://zfantods.github.io/AluraHtmlAndCss/) / [README](https://github.com/ZFantods/AluraHtmlAndCss)
+
+
 ## 🚀 Technologies  
 <div>
   <img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">

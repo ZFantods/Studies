@@ -1,18 +1,19 @@
-# 0. Nomes de variáveis e funções 
+# 0. Nomes de variáveis e funções ✒️
 
-**Evite usar nomes de variáveis e funções com nomes comuns, pois podem ser confundidos com outros nomes.**
+##### Evite usar nomes de variáveis e funções com nomes comuns, pois podem ser confundidos com outros nomes.
 - Exemplo: i, j, k, x, y, z.
-**Evite usar nomes de variáveis e funções que não expliquem o que a variável ou função representa.**
+##### Evite usar nomes de variáveis e funções que não expliquem o que a variável ou função representa.
 - Exemplo: BUGA, BUGA, buga.
-**Evite usar nomes de variáveis e funções que não descrevem o que a variável ou função faz.**
+##### Evite usar nomes de variáveis e funções que não descrevem o que a variável ou função faz.
 - Exemplo: contador. Contador do que?	
-**Evite usar nomes de variáveis e funções que são muito longos ou complexos.**
+##### Evite usar nomes de variáveis e funções que são muito longos ou complexos.
 - Exemplo: CorAzulDoCeuDasNuvensDaTerra.
-**Evite usar nomes de variáveis e funções que são repetidos em vários lugares do código.**
+##### Evite usar nomes de variáveis e funções que são repetidos em vários lugares do código.
 - Exemplo: CorAzul, corAzul, cor_azul.
- **Evite usar nomes de variáveis e funções que não são úteis para a compreensão do código.**
+##### Evite usar nomes de variáveis e funções que não são úteis para a compreensão do código.
 - Exemplo: Zé do céu, Zé da terra, Zé da Terra.
-**Nomes de variáveis e funções devem ser escritos em inglês ou em sua língua nativa para trazer mais clareza ao código.**
+##### Nomes de variáveis e funções devem ser escritos em inglês ou em sua língua nativa para trazer mais clareza ao código.
+
 ## Consistência e Clareza
  **Descrição**: Seja consistente em todo o seu código e utilize nomes descritivos. "[self-documenting](https://en.wikipedia.org/wiki/Self-documenting_code)".
 - Exemplo: Se utilizar `totalPreco`, use sempre `totalPreco`, não altere para `precoTotal`.
@@ -21,7 +22,7 @@
 **Descrição**: Evite abreviações a menos que sejam amplamente compreendidas. "[meaningful names](https://en.wikipedia.org/wiki/Meaningful_name)".
 Exemplo: Em vez de `tmpVar`, use `variavelTemp`.
 
-# Convenções de Nomenclatura por Linguagem
+# Convenções de Nomenclatura por Linguagem 💬
 
 ## 1. CamelCase
 

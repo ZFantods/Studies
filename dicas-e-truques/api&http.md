@@ -1,0 +1,111 @@
+# Conceitos de API e HTTP
+
+## O que é uma API?
+
+Uma **API (Interface de Programação de Aplicações)** é um conjunto de regras e definições que permite que diferentes softwares se comuniquem entre si. Ela define como as requisições e respostas devem ser feitas, possibilitando que aplicações compartilhem dados e funcionalidades.
+
+As APIs podem ser **RESTful** (baseadas em HTTP) ou seguir outros protocolos como **SOAP**, mas **APIs REST** são as mais comuns atualmente, especialmente para aplicações web.
+
+### Principais Componentes de uma API:
+- **EndPoint**: URL através da qual a API é acessada.
+- **Métodos HTTP**: Regras de como as requisições são feitas (GET, POST, PUT, DELETE, etc.).
+- **Headers**: Informações adicionais na requisição, como tipo de conteúdo ou autenticação.
+- **Body**: Parte da requisição onde dados podem ser enviados (geralmente em POST ou PUT).
+
+## O que é HTTP?
+
+O **HTTP (HyperText Transfer Protocol)** é o protocolo utilizado para a comunicação entre clientes (como navegadores ou aplicativos) e servidores web. Ele define como as mensagens são enviadas e recebidas pela web.
+
+### Principais métodos HTTP:
+- **GET**: Recupera dados do servidor (sem modificar nada).
+- **POST**: Envia dados ao servidor (usado para criação de recursos).
+- **PUT**: Atualiza dados no servidor.
+- **DELETE**: Remove um recurso do servidor.
+- **PATCH**: Atualiza parcialmente um recurso.
+
+### Exemplo de fluxo HTTP:
+1. **Cliente envia uma requisição GET**:
+   O cliente, como um navegador ou aplicativo, envia uma requisição para um servidor, pedindo um recurso específico.
+   
+2. **Servidor processa a requisição**:
+   O servidor recebe a requisição e processa a lógica necessária, como acessar um banco de dados ou outro serviço.
+
+3. **Resposta do servidor**:
+   O servidor então envia uma resposta com os dados solicitados ou uma mensagem de erro.
+
+## Diferença entre API e HTTP:
+
+- **API**: Define um conjunto de regras e funções para a interação entre diferentes softwares.
+- **HTTP**: Protocolo de comunicação usado para enviar e receber dados entre clientes e servidores. Muitas **APIs REST** utilizam HTTP como meio de comunicação.
+
+## Principais Conceitos de HTTP/REST:
+URI (Uniform Resource Identifier): Endereço **único de um recurso na web**.
+Métodos HTTP: Como as requisições são feitas (GET, POST, PUT, DELETE).
+Status Codes: Códigos que indicam o sucesso ou falha da requisição.
+- 200 OK: Requisição bem-sucedida.
+- 404 Not Found: Recurso não encontrado.
+- 500 Internal Server Error: Erro no servidor.
+### Boas Práticas em APIs:
+- Usar métodos HTTP corretamente: Use GET para leitura, POST para criação, PUT para atualização e DELETE para remoção.
+- Consumir APIs de forma segura: Verifique a autenticação e autorização antes de acessar uma API.
+- Evitar dependências circulares: Evite depender de outras APIs que você está criando.
+- **Documentação clara**: Sempre documente a API, explicando como ela pode ser utilizada, os parâmetros necessários e os tipos de resposta.
+- Versionamento: Utilize versionamento na URL para garantir que alterações não quebrem funcionalidades existentes.
+
+## Portas padrão de HTTP:
+
+- 80: HTTP (HTTP) e estamos usando o protocolo padrão do HTTP. Geralmente, os servidores HTTP usam a porta 80 para aceitar requisições de clientes.
+- 443: HTTPS (HTTPS) é um protocolo de comunicação seguro que é usado para criptografar a comunicação entre o cliente e o servidor.
+- De 1023 a 49151: Livres para uso pelos desenvolvedores. 
+- Portas entre 0 e 1023 são reservadas para serviços padronizados. 
+
+## Identificando o protocolo, recurso na URL e método da requisição:
+
+- http://example.com/api/v1/users
+
+### Protocolo:
+- http://: Protocolo HTTP
+- https://: Protocolo HTTPS
+
+### Recurso (Endpoint):
+
+- /api/v1/users: Recurso que será acessado
+- /api/v1/users/:id: Recurso que será acessado e que requer um parâmetro
+- /api/v1/users/search: Recurso que será acessado e que requer parâmetros (GET)
+- /api/v1/users/create: Recurso que será acessado e que requer parâmetros (POST)
+- /api/v1/users/update: Recurso que será acessado e que requer parâmetros (PUT)
+- /api/v1/users/delete: Recurso que será acessado e que requer parâmetros (DELETE)
+- /api/v1/users/search/:id: Recurso que será acessado e que requer parâmetros (GET)
+
+# Domínios de Serviço
+
+## O que é um domínio de serviço?
+- Os servidores DNS transformam requisições de nomes em endereços IP, isso para que a pessoa usuária consiga acessar a página web esperada quando digitar o nome de domínio no navegador web.
+- Um domínio de serviço é um nome de domínio que é registrado no DNS (Domain Name System) e que pode ser utilizado para acessar um serviço.
+- Um domínio de serviço é uma parte do endereço de um serviço, que é utilizado para acessar o serviço.
+- Um domínio de serviço é um nome de domínio que é registrado no DNS (Domain Name System) e que pode ser utilizado para acessar um serviço.
+
+### Sistema de nomes de domínios (DNS)
+- O DNS é o sistema responsável por traduzir nomes de domínios para endereços IP. 
+
+Por exemplo, se você quiser acessar o site da Google, você digitará o nome de domínio "google.com" no navegador web. **O DNS irá traduzir o nome de domínio para o endereço IP do site da Google.**
+
+## Dominios locais e domínios públicos
+#### O domínio é o nome do site na Web. Ele facilita a navegação do usuário, que não precisa lembrar o IP de cada site.
+- Um domínio local é um nome de domínio que é registrado no DNS local, enquanto que um domínio público é um nome de domínio que é registrado no DNS público.
+ Por exemplo, o público seria o nome de domínio "google.com" e o local seria o nome de domínio "localhost".
+
+### Dns é hierarquico
+- O DNS é um sistema hierarquico, ou seja, ele é composto por vários nós que estão conectados entre si.
+Para simplificar, o DNS é composto por três nós principais:
+- O nó de root, que é o **nó raiz** do DNS.
+- O nó de domínio, que é onde os **registros de nomes de domínio são armazenados**.
+- O nó de host, que é responsável por armazenar as informações de **endereços IP**.
+
+Primeiro é o raiz; (top-level domain, TLD).
+Segundo é o domínio; (com, br, org, net, pt, etc.)
+Terceiro é o host.
+
+**http:** Protocolo
+**//localhost:** Endereço IP ou Nome de domínio.
+:3000/: caminho (raiz)

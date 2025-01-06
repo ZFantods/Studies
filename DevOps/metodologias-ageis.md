@@ -27,7 +27,8 @@ Kanban:
 Oferece um fluxo contínuo de trabalho, sem iterações fixas.
 Não impõe papéis específicos, **permitindo maior flexibilidade nas responsabilidades**.
 Foca na **visualização do fluxo de trabalho** por meio de um quadro Kanban, com colunas representando os estágios do processo.
-Alterações que ocorreram no Scrum Guide e que tem direta implicação na organização das equipes ágeis
+
+#### Alterações que ocorreram no Scrum Guide e que tem direta implicação na organização das equipes ágeis
 
 ### Reorganização da equipe:
  O Scrum Team foi reorganizado para incluir apenas três papéis: S**crum Master, Product Owner e Developers**.
@@ -40,15 +41,33 @@ Alterações que ocorreram no Scrum Guide e que tem direta implicação na organ
 
 #### Definição de **Product Owner**: 
 - O Product Owner é responsável por maximizar o valor do produto resultante do trabalho do Time de Desenvolvimento.
-Responsabilidades do Product Owner*: 
+#### Responsabilidades do Product Owner*: 
 - O Product Owner é responsável por gerenciar o Backlog do Produto (ou pode delegar)."
-Interagindo com a Equipe de Desenvolvimento:
+#### Interagindo com a Equipe de Desenvolvimento:
 - O Product Owner pode fazer o trabalho acima interagindo com a equipe de desenvolvimento de várias formas.
-Tomada de Decisões: 
+#### Tomada de Decisões: 
 - As decisões do Product Owner são visíveis no conteúdo e na ordem do Backlog do Produto."
-Colaboração com Stakeholders:
+#### Colaboração com Stakeholders:
 - O Product Owner pode trabalhar com um ou mais Stakeholders para entender suas necessidades e expectativas.
-Envolvimento nas Revisões de Sprint: 
+#### Envolvimento nas Revisões de Sprint: 
 - O Product Owner participa da Revisão de Sprint, para revisar o trabalho desenvolvido e discutir a próxima coisa mais valiosa a ser feita.
-Atualização Contínua do Backlog: 
+#### Atualização Contínua do Backlog: 
 - À medida que o trabalho é realizado, o novo trabalho pode ser planejado e estimado com o Product Owner e o Time de Desenvolvimento colaborando no refinamento do Backlog do Produto.
+
+## Scrumban
+
+Características do Scrumban:
+
+Iterativo e Incremental: **O Scrumban mantém a abordagem iterativa e incremental do Scrum**, permitindo entregas regulares e ajustes flexíveis.
+- **Iterativo**: O Scrumban é uma abordagem iterativa, onde o processo é executado em etapas, cada uma das quais é concluída antes de passar para a próxima.
+- **Revisão Contínua**: O Scrumban permite a realização de revisões contínuas para melhorar o processo, identificar gargalos e implementar ajustes para otimizar a eficiência.
+Práticas Comuns do Scrumban:
+
+### Limites de Work in Progress (WIP): 
+- O Scrumban utiliza limites WIP para controlar a quantidade de trabalho em andamento em cada estágio do processo, evitando sobrecarga e congestionamento.
+### Revisões Contínuas: 
+- A equipe realiza revisões contínuas para melhorar o processo, identificar gargalos e implementar ajustes para otimizar a eficiência.
+### Priorização Dinâmica: 
+= O Scrumban permite a reorganização dinâmica do backlog de acordo com as necessidades do projeto, sem a rigidez de prioridades fixas durante uma iteração.
+O **Scrumban** 
+>  é particularmente útil para equipes que desejam combinar as vantagens de ambos os frameworks, especialmente quando estão em transição entre o Scrum e o Kanban ou quando desejam aproveitar a flexibilidade do Kanban dentro de uma estrutura Scrum existente.

@@ -8,7 +8,7 @@ As metodologias ágeis são baseadas em princípios como a **autonomia**, a **tr
 "A implementação da agilidade nas empresas refere-se à adoção de metodologias ágeis para gerenciar e executar projetos, processos e operações de maneira mais flexível, colaborativa e eficiente. Duas das metodologias ágeis mais populares são o **Scrum e Kanban**"
 ## Scrum
 
-Scrum é uma metodologia ágil que se concentra na colaboração e na adaptabilidade.
+Scrum é uma metodologia ágil que se concentra na **colaboração e na adaptabilidade**.
 
 O Scrum Guide define o Product Owner como uma das três funções essenciais no framework Scrum. O Product Owner é uma função chave em uma equipe Scrum, sendo responsável por representar os interesses do cliente, stakeholders e da organização para a equipe de desenvolvimento. É o Product Owner quem define os itens do backlog do produto (ou pode delegar), prioriza esses itens com base nas necessidades do negócio e garante que a equipe de desenvolvimento compreenda claramente os requisitos.
 

@@ -1,4 +1,4 @@
-# 📚 Description*
+# 📚 Description
 Este **repositório é dedicado ao meu processo de aprendizado em programação**. Nele, compartilho projetos, exercícios e anotações que estou desenvolvendo enquanto exploro conceitos fundamentais, como lógica de programação, estruturas de dados, algoritmos e boas práticas de codificação.  
 
 > O objetivo é aprimorar minhas habilidades em resolução de problemas, consolidar conhecimentos e melhorar a organização e legibilidade do código. Este espaço também reflete meu progresso em áreas como desenvolvimento de projetos pessoais, estudos de metodologias ágeis e integração de tecnologias modernas.  
@@ -40,13 +40,17 @@ Este **repositório é dedicado ao meu processo de aprendizado em programação*
 
 # **SoloBuilds 🚀**  
 > Uma coleção de projetos pessoais onde exploro novos conceitos, experimento ideias e aplico minhas habilidades de programação para resolver problemas reais ou criar soluções inovadoras. Cada projeto representa um passo na minha jornada de aprendizado, destacando meu crescimento como desenvolvedor e meu compromisso com a melhoria contínua.
+---
+
 ## 🖌️ Front-End Development
 
 ### HTML&CSS
 
 - **[Perfil de usuário](https://github.com/ZFantods/link-profile)**
   - [Visualização no Vercel](https://link-profile-seven.vercel.app/)  
----
+
+###  💻 Back-End Development
+- **[Banco de dados Stardew Valley](https://github.com/ZFantods/stardew-database)**
 
 ## 🚀 **Technologies**  
 <div>

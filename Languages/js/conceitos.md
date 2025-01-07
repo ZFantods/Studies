@@ -1,3 +1,24 @@
+# O que é javascript?
+>  Javascript é uma linguagem interpretada (linguagem de programação interpretada) de script, de código aberto, que é baseada em **ECMAScript** (ECMA Script). Surgiu em 1995 como uma proposta de Netscape Communications, e foi aprovada em 1996. O nome JavaScript veio do inglês, que significa Script Java, sendo o nome de um interpretador de scripts Java. Não confundir com a linguagem Java.
+> O surgimento do NodeJs em 2009, com a enginev8 do Chrome, foi possível adaptar para funções back-end.
+
+- linguagem interpretada
+- mais flexível;
+- linguagem fracamente tipada e de tipagem dinâmica;
+- analisa o código linha por linha e executa as instruções em tempo real;
+- É possível utilizar diferentes paradigmas de programação, como [orientado a objetos](https://www.alura.com.br/artigos/poo-programacao-orientada-a-objetos), [funcional](https://www.alura.com.br/artigos/programacao-funcional-o-que-e) ou procedural
+
+-  JavaScript permite que profissionais que já têm **familiaridade com o JavaScript no front-end migrem facilmente para o back-end**.
+
+# NodeJs
+> Node.js é um interpretador de código aberto, de script, que permite executar JavaScript no servidor.
+
+- Ele usa o motor V8 do Google Chrome, que é um interpretador de código JavaScript de alto desempenho;
+- O Node.js é executado no servidor, e não no cliente;
+- Suporta a bibliotecas e frameworks variados, como o Express, o MongoDB, o Socket.io, etc;
+- Uso do NPM (Node Package Manager) para instalar bibliotecas e frameworks;
+- Arquitetura baseada em eventos e assícronas;
+- Popular para construção de servidores e APis.
 
 # Conceitos Básicos de JavaScript
 
@@ -23,6 +44,11 @@
   - **Array**: listas (coleções ordenadas de valores).
   - **undefined**: variável declarada, mas sem valor atribuído.
   - **null**: valor nulo (não aponta para nada).
+
+### Diferença entre Null e undefined
+ **`undefined`** significa que uma variável foi declarada, mas ainda não recebeu um valor. É como se a variável fosse um espaço vazio esperando ser preenchido.
+
+**`null`** significa que uma variável foi declarada e recebeu um valor, mas esse valor é a ausência de um valor. É como se a variável estivesse vazia, mas com a intenção de ser vazia.
 
 ## 2. Operadores
 

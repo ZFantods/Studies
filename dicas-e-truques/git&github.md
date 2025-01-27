@@ -38,7 +38,7 @@
 - Além de ter um id (identificador único) para cada commit, cada commit também tem um **hash** que é uma representação única do conteúdo do commit.
 - Possui um **histórico de commits** que é uma lista de todos os commits realizados no repositório.
 
-## 1.1 comandos básicos do git
+## Comandos básicos do git
 
 - **git init**: inicializa um novo repositório git.
 - **git clone**: clona um repositório existente para criar um novo repositório.
@@ -76,6 +76,34 @@
 - **git stash**: armazena as alterações no stage e os restaura depois de uma operação.
 - **git submodule**: gerencia os módulos do repositório.
 - **git worktree**: gerencia os workspaces do repositório.
+
+# Comandos Específicos do Git
+
+## Histórico de Commits
+
+- **`git log --follow [arquivo]`**: Exibe o histórico de commits de um arquivo específico, incluindo renomeações, permitindo rastrear mudanças ao longo do tempo.
+- **`git log --stat`**: Exibe o histórico de commits de uma branch, mostrando informações sobre o número de arquivos modificados, linhas adicionadas e removidas.
+- **`git log --oneline`**: Exibe o histórico de commits de uma branch em formato compacto, com uma linha por commit, mostrando o hash abreviado e a mensagem de commit.
+- **`git log --graph`**: Exibe o histórico de commits de uma branch visualmente, com uma representação gráfica das ramificações do repositório.
+- **`git log --decorate`**: Exibe o histórico de commits de uma branch, com anotações sobre referências (como branches e tags) nos commits.
+- **`git log --oneline --decorate`**: Exibe o histórico de commits de uma branch em formato compacto, com informações sobre as referências, como branches e tags.
+- **`git log --graph --decorate`**: Exibe o histórico de commits de uma branch visualmente, com as referências (branches, tags) decorando os commits.
+- **`git log --oneline --graph --decorate`**: Exibe o histórico de commits de uma branch de maneira compacta e visual, incluindo a representação gráfica das ramificações e as referências (como branches e tags).
+
+## Filtragem e Visualização Avançada
+
+- **`git log --since="data"`**: Exibe commits a partir de uma data específica (ex: `git log --since="2024-01-01"`).
+- **`git log --until="data"`**: Exibe commits até uma data específica (ex: `git log --until="2024-01-01"`).
+- **`git log --author="nome"`**: Exibe commits feitos por um autor específico.
+- **`git log -p`**: Exibe o histórico de commits com o diff completo de cada commit, mostrando as alterações feitas no código.
+- **`git log --reverse`**: Exibe o histórico de commits de forma invertida, começando do commit mais antigo.
+
+## Outros Comandos Úteis
+
+- **`git log --abbrev-commit`**: Exibe o histórico de commits, mas com os hashes dos commits abreviados.
+- **`git log --merges`**: Exibe apenas os commits de merge.
+- **`git log --no-merges`**: Exibe todos os commits, exceto os de merge.
+
 
 
 # Referencias 🔗

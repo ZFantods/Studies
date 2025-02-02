@@ -17,7 +17,7 @@ Existem vários tipos de containers disponíveis, cada um com suas característi
 
 O Docker é um a plataforma que **permite criar, gerenciar e executar aplicações em containers**. Containers são como máquinas virtuais leves que compartilham o kernel do sistema operacional, permitindo que você execute aplicativos e serviços em um ambiente isolado e seguro.
 
-### Principais conceitos:
+### Principais conceitos
 
 - **Imagem**: Uma imagem é um pacote de software que contém todos os arquivos e dependências necessários para executar um aplicativo ou um serviço.
 - **Container**: Um container é uma instância de uma imagem. Ele é executado em um ambiente isolado e separado do sistema operacional.
@@ -35,8 +35,9 @@ O Docker é um a plataforma que **permite criar, gerenciar e executar aplicaçõ
 #### Primeiros Passos com Docker
 
 1. Instale o Docker em seu computador.
-2. **Testar o Docker**: Eexecute o comando 
+2. **Testar o Docker**: Eexecute o comando
 `docker run hello-world` no terminal.
+
 - Esse comando baixa a imagem `hello-world` do Docker Hub e executa o aplicativo dentro do container.
 - Cria e executa um container a partir dela;
 - Exibe uma mensagem de boas-vindas.
@@ -56,7 +57,7 @@ O Docker é um a plataforma que **permite criar, gerenciar e executar aplicaçõ
 
 - Inicie um container do Nginx:
 `docker run --name nginx-container -d -p 80:80 nginx`
-- O Nginx estará disponível em http://localhost.8080
+- O Nginx estará disponível em <http://localhost.8080>
 
 5 - Parar e remover um container:
 
@@ -80,7 +81,6 @@ Comando / Descrição
 `docker images`: Lista todas as imagens disponíveis.
 `docker build -t <imagem> .`: Cria uma imagem a partir de um arquivo Dockerfile.
 
-
-# Referências 
+# Referências
 
 - [O que é docker](https://x.com/programador_who/status/1875609788303716471)

@@ -6,7 +6,8 @@ Uma **API (Interface de Programação de Aplicações)** é um conjunto de regra
 
 As APIs podem ser **RESTful** (baseadas em HTTP) ou seguir outros protocolos como **SOAP**, mas **APIs REST** são as mais comuns atualmente, especialmente para aplicações web.
 
-### Principais Componentes de uma API:
+### Principais Componentes de uma API
+
 - **EndPoint**: URL através da qual a API é acessada.
 - **Métodos HTTP**: Regras de como as requisições são feitas (GET, POST, PUT, DELETE, etc.).
 - **Headers**: Informações adicionais na requisição, como tipo de conteúdo ou autenticação.
@@ -16,58 +17,65 @@ As APIs podem ser **RESTful** (baseadas em HTTP) ou seguir outros protocolos com
 
 O **HTTP (HyperText Transfer Protocol)** é o protocolo utilizado para a comunicação entre clientes (como navegadores ou aplicativos) e servidores web. Ele define como as mensagens são enviadas e recebidas pela web.
 
-### Principais métodos HTTP:
+### Principais métodos HTTP
+
 - **GET**: Recupera dados do servidor (sem modificar nada).
 - **POST**: Envia dados ao servidor (usado para criação de recursos).
 - **PUT**: Atualiza dados no servidor.
 - **DELETE**: Remove um recurso do servidor.
 - **PATCH**: Atualiza parcialmente um recurso.
 
-### Exemplo de fluxo HTTP:
+### Exemplo de fluxo HTTP
+
 1. **Cliente envia uma requisição GET**:
    O cliente, como um navegador ou aplicativo, envia uma requisição para um servidor, pedindo um recurso específico.
-   
+
 2. **Servidor processa a requisição**:
    O servidor recebe a requisição e processa a lógica necessária, como acessar um banco de dados ou outro serviço.
 
 3. **Resposta do servidor**:
    O servidor então envia uma resposta com os dados solicitados ou uma mensagem de erro.
 
-## Diferença entre API e HTTP:
+## Diferença entre API e HTTP
 
 - **API**: Define um conjunto de regras e funções para a interação entre diferentes softwares.
 - **HTTP**: Protocolo de comunicação usado para enviar e receber dados entre clientes e servidores. Muitas **APIs REST** utilizam HTTP como meio de comunicação.
 
-## Principais Conceitos de HTTP/REST:
+## Principais Conceitos de HTTP/REST
+
 URI (Uniform Resource Identifier): Endereço **único de um recurso na web**.
 Métodos HTTP: Como as requisições são feitas (GET, POST, PUT, DELETE).
 Status Codes: Códigos que indicam o sucesso ou falha da requisição.
+
 - 200 OK: Requisição bem-sucedida.
 - 404 Not Found: Recurso não encontrado.
 - 500 Internal Server Error: Erro no servidor.
-### Boas Práticas em APIs:
+
+### Boas Práticas em APIs
+
 - Usar métodos HTTP corretamente: Use GET para leitura, POST para criação, PUT para atualização e DELETE para remoção.
 - Consumir APIs de forma segura: Verifique a autenticação e autorização antes de acessar uma API.
 - Evitar dependências circulares: Evite depender de outras APIs que você está criando.
 - **Documentação clara**: Sempre documente a API, explicando como ela pode ser utilizada, os parâmetros necessários e os tipos de resposta.
 - Versionamento: Utilize versionamento na URL para garantir que alterações não quebrem funcionalidades existentes.
 
-## Portas padrão de HTTP:
+## Portas padrão de HTTP
 
 - 80: HTTP (HTTP) e estamos usando o protocolo padrão do HTTP. Geralmente, os servidores HTTP usam a porta 80 para aceitar requisições de clientes.
 - 443: HTTPS (HTTPS) é um protocolo de comunicação seguro que é usado para criptografar a comunicação entre o cliente e o servidor.
-- De 1023 a 49151: Livres para uso pelos desenvolvedores. 
-- Portas entre 0 e 1023 são reservadas para serviços padronizados. 
+- De 1023 a 49151: Livres para uso pelos desenvolvedores.
+- Portas entre 0 e 1023 são reservadas para serviços padronizados.
 
-## Identificando o protocolo, recurso na URL e método da requisição:
+## Identificando o protocolo, recurso na URL e método da requisição
 
-- http://example.com/api/v1/users
+- <http://example.com/api/v1/users>
 
-### Protocolo:
+### Protocolo
+
 - http://: Protocolo HTTP
 - https://: Protocolo HTTPS
 
-### Recurso (Endpoint):
+### Recurso (Endpoint)
 
 - /api/v1/users: Recurso que será acessado
 - /api/v1/users/:id: Recurso que será acessado e que requer um parâmetro
@@ -80,22 +88,27 @@ Status Codes: Códigos que indicam o sucesso ou falha da requisição.
 # Domínios de Serviço
 
 ## O que é um domínio de serviço?
+
 - Os servidores DNS transformam requisições de nomes em endereços IP, isso para que a pessoa usuária consiga acessar a página web esperada quando digitar o nome de domínio no navegador web.
 - Um domínio de serviço é um nome de domínio que é registrado no DNS (Domain Name System) e que pode ser utilizado para acessar um serviço.
 - Um domínio de serviço é uma parte do endereço de um serviço, que é utilizado para acessar o serviço.
 - Um domínio de serviço é um nome de domínio que é registrado no DNS (Domain Name System) e que pode ser utilizado para acessar um serviço.
 
 ### Sistema de nomes de domínios (DNS)
-- O DNS é o sistema responsável por traduzir nomes de domínios para endereços IP. 
+
+- O DNS é o sistema responsável por traduzir nomes de domínios para endereços IP.
 
 Por exemplo, se você quiser acessar o site da Google, você digitará o nome de domínio "google.com" no navegador web. **O DNS irá traduzir o nome de domínio para o endereço IP do site da Google.**
 
 ## Dominios locais e domínios públicos
-#### O domínio é o nome do site na Web. Ele facilita a navegação do usuário, que não precisa lembrar o IP de cada site.
+
+#### O domínio é o nome do site na Web. Ele facilita a navegação do usuário, que não precisa lembrar o IP de cada site
+
 - Um domínio local é um nome de domínio que é registrado no DNS local, enquanto que um domínio público é um nome de domínio que é registrado no DNS público.
  Por exemplo, o público seria o nome de domínio "google.com" e o local seria o nome de domínio "localhost".
 
 ### Dns é hierarquico
+
 - O DNS é um sistema hierarquico, ou seja, ele é composto por vários nós que estão conectados entre si.
 Para simplificar, o DNS é composto por três nós principais:
 - O nó de root, que é o **nó raiz** do DNS.
@@ -121,6 +134,7 @@ Terceiro é o host.
 [Cookies](https://www.alura.com.br/artigos/o-que-sao-cookies-como-funcionam) são **pequenos arquivos que são enviados pelo navegador do usuário para o servidor**. Geralmente são gravados no disco rígido do usuário, mas também podem ser gravados em memória do navegador.
 
 ## Tokens
+
 **
 [Tokens](https://www.seudinheiro.com/conteudo-de-marca/o-que-e-token-como-funciona-vantagens-e-desvantagens/) Um token é **uma unidade de dados que representa a autorização de acesso a um recurso ou serviço**. No contexto de segurança de software, os tokens são utilizados para autenticar usuários e garantir que apenas aqueles com as permissões adequadas possam acessar informações sensíveis. Eles podem assumir diversas formas, como tokens de sessão, tokens de acesso e tokens de atualização, cada um com sua função específica dentro do ecossistema de segurança.
 
@@ -129,7 +143,6 @@ Terceiro é o host.
 [URLs](https://developer.mozilla.org/pt-BR/docs/Glossary/URL) **Uniform Resource Locator (URL)** é uma sequência de texto que especifica onde um recurso pode ser encontrado na Internet.
 
 No contexto de HTTP, URLs são chamadas de "Endereços web" ou "link". Seu navegador exibe as URLs na barra de endereços.
-
 
 # O que é CRUD ?
 
@@ -149,7 +162,6 @@ No contexto de HTTP, URLs são chamadas de "Endereços web" ou "link". Seu naveg
 - **CRUD**: CRUD é um conjunto de operações que podem ser realizadas em um sistema de banco de dados.
 - **REST**: REST é uma maneira de se organizar as operações de um sistema de banco de dados.
 
-
 ### O que são APIs?
 
 **APIs** são interfaces entre aplicações. **Podemos pensar em APIs como pontos de contato ou comunicação entre partes de um sistema ou entre sistemas diferentes**, por exemplo:
@@ -158,8 +170,8 @@ No contexto de HTTP, URLs são chamadas de "Endereços web" ou "link". Seu naveg
 - Uma aplicação quer utilizar um sistema de busca de CEPs disponibilizado por terceiros. O serviço de busca disponibiliza uma API para ser usada pela aplicação (um exemplo famoso é o [ViaCEP](https://viacep.com.br/)).
 - Grande parte dos serviços em nuvem, como a AWS e o Google Cloud, disponibilizam APIs para que clientes possam utilizar seus serviços.
 
-
 ### APIs e JSON
+>
 > **API**, ou _application programming interface_ (interface de programação de aplicações), em tradução livre
 O formato JSON é o padrão atual para envio de recebimento de dados entre aplicações. Na prática, isso significa que usamos JSON para, por exemplo:
 

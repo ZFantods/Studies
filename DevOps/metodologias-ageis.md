@@ -108,5 +108,3 @@ Nem só de Scrum e Kanban vive o mundo ágil! Existem diversas abordagens que po
 
 💡 **Conclusão**  
 Cada metodologia ágil tem suas particularidades e pode ser mais adequada para diferentes **tipos de equipe e projetos**. O mais importante é escolher aquela que **melhor se adapta ao seu contexto**.  
-
-📢 **Você já utilizou alguma dessas metodologias? Comente sua experiência!** 🚀

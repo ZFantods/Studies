@@ -32,6 +32,8 @@ Este **repositório é dedicado ao meu processo de aprendizado em programação*
   - [Projeto no GitHub](https://github.com/ZFantods/AluraHtmlAndCss)  
   - [Visualização no GitHub Pages](https://zfantods.github.io/AluraHtmlAndCss/)  
 - **[Criando um Perfil com ROCKSEAT](https://github.com/ZFantods/rocketseat-Discover)**
+- **[Spotify](https://github.com/ZFantods/imersao-alura-spotify)**
+  - [Github Pages](https://zfantods.github.io/imersao-alura-spotify/)
 ##  💻 Back-End Development
 ### Node.js
 - **[Introdução ao Node.js](https://github.com/ZFantods/javascript-nodejs-primeira-biblioteca)**

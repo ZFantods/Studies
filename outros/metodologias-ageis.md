@@ -1,7 +1,7 @@
 # 🚀 Metodologias Ágeis  
 
 ## 📌 Introdução  
-As metodologias ágeis são abordagens para **gestão de projetos de software**, focadas na criação de valor para o cliente e na eficiência da equipe.  
+> As metodologias ágeis são abordagens para **gestão de projetos de software**, focadas na criação de valor para o cliente e na eficiência da equipe.  
 
 🔹 Baseiam-se nos princípios de **autonomia, transparência, colaboração e adaptabilidade**.  
 🔹 Permitem ciclos de trabalho mais curtos e produtivos.  

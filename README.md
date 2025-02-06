@@ -3,6 +3,18 @@ Este **repositório é dedicado ao meu processo de aprendizado em programação*
 
 > O objetivo é aprimorar minhas habilidades em resolução de problemas, consolidar conhecimentos e melhorar a organização e legibilidade do código. Este espaço também reflete meu progresso em áreas como desenvolvimento de projetos pessoais, estudos de metodologias ágeis e integração de tecnologias modernas.  
 
+--- 
+## 🌐 Participe da Comunidade de Estudos!
+
+Caso queira fazer parte de uma comunidade de estudos sobre **programação** e **desenvolvimento de software**, junte-se aos meus servidores no **Telegram** e **Discord**. 
+
+Nos espaços, compartilhamos dicas, tutoriais e trocamos ideias sobre o mundo da programação!
+
+🔗 **Participe no Telegram**: [Clique aqui para entrar no Telegram](t.me/programmingbrazil)
+
+🔗 **Participe no Discord**: [Clique aqui para entrar no Discord](https://discord.gg/mEAnJxyQrp)
+compartilhar recursos úteis.
+
 ---
 
 ## Contents

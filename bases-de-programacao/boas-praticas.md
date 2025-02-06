@@ -102,8 +102,148 @@ Boas práticas na organização do código-fonte.
  ┣ 📜 package.json ➜ Dependências e scripts
  ┣ 📜 .gitignore ➜ Arquivos ignorados pelo Git
 ```
+# **Boas Práticas de Nomes de Pastas 📁**
+
+## **1. Use Nomes Descritivos e Claros 📜**
+
+Evite nomes vagos ou genéricos para as pastas. O nome da pasta deve refletir claramente o seu conteúdo ou propósito.
+
+**Exemplo ruim:**
+
+```plaintext
+/pasta1
+/docs
+```
+
+**Exemplo bom:**
+
+```plaintext
+/src
+/tests
+```
 
 ---
+
+## **2. Utilize Convenções Consistentes 🎯**
+
+Escolha uma convenção de nomenclatura (como `camelCase`, `kebab-case` ou `snake_case`) e mantenha-a consistente em todo o projeto.
+
+**Exemplo ruim:**
+
+```plaintext
+/MyFolder
+/my_folder
+/my-folder
+```
+
+**Exemplo bom:**
+
+```plaintext
+/my-folder
+```
+
+---
+
+## **3. Evite Nomes de Pastas Completamente Abstratos 🔍**
+
+Nomes como `misc`, `others`, `temp` não são informativos o suficiente. Seja específico sobre o conteúdo ou finalidade da pasta.
+
+**Exemplo ruim:**
+
+```plaintext
+/misc
+/other
+/temp
+```
+
+**Exemplo bom:**
+
+```plaintext
+/assets
+/docs
+/temp-images
+```
+
+---
+
+## **4. Use Nomes de Pastas no Plural para Coleções 📚**
+
+Quando uma pasta contém uma coleção de arquivos, use o plural para indicar isso de forma clara.
+
+**Exemplo ruim:**
+
+```plaintext
+/images
+/document
+```
+
+**Exemplo bom:**
+
+```plaintext
+/images
+/documents
+```
+
+---
+
+## **5. Evite Caracteres Especiais e Espaços 🚫**
+
+Evite o uso de caracteres especiais como `@`, `#`, `$`, `%`, ou espaços. Isso pode causar problemas em diferentes sistemas operacionais e dificultar o acesso aos arquivos.
+
+**Exemplo ruim:**
+
+```plaintext
+/my folder
+/my@folder
+```
+
+**Exemplo bom:**
+
+```plaintext
+/my-folder
+/my_folder
+```
+
+---
+
+## **6. Mantenha a Hierarquia Simples e Lógica 🧑‍💻**
+
+A estrutura de pastas deve ser lógica e fácil de entender. Evite criar profundidades desnecessárias e complexas de pastas.
+
+**Exemplo ruim:**
+
+```plaintext
+/project/src/components/ui/buttons
+/project/src/components/ui/buttons/large-buttons
+```
+
+**Exemplo bom:**
+
+```plaintext
+/project/src/components/buttons
+/project/src/components/buttons/large
+```
+
+---
+
+## **7. Use Nomes que Facilitem a Navegação Rápida 🔄**
+
+Pasta bem nomeadas ajudam a navegação rápida e tornam o projeto mais organizado, economizando tempo durante o desenvolvimento.
+
+**Exemplo ruim:**
+
+```plaintext
+/xyz
+/123
+```
+
+**Exemplo bom:**
+
+```plaintext
+/components
+/helpers
+/assets
+```
 
 # 📌 Nomes que NÃO podem ser usados 🚫
 
@@ -114,10 +254,16 @@ Boas práticas na organização do código-fonte.
 
 ---
 
-# 📌 Referências 📚
-- [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - Robert C. Martin.
-- [Self-Documenting Code](https://en.wikipedia.org/wiki/Self-documenting_code).
-- [Meaningful Names](https://en.wikipedia.org/wiki/Meaningful_name).
+📌 **Referências:**
+
+🔗 [Manual de Boas Práticas para Gestão de Pastas e Arquivos Digitais](https://www.legiscompliance.com.br/images/pdf/Boas-praticas-para-pastas-e-arquivos-digitais.pdf?utm_source=chatgpt.com)  
+🔗 [9 Boas práticas de gestão de documentos e arquivos digitais](https://www.jusbrasil.com.br/artigos/9-boas-praticas-de-gestao-de-documentos-e-arquivos-digitais/116967219?utm_source=chatgpt.com)  
+🔗 [Convenção de Nomenclatura de Pastas e Arquivos – 10 Regras](https://www.reddit.com/r/datacurator/comments/r71io5/folder_and_file_naming_convention_10_rules_for/?tl=pt-br&utm_source=chatgpt.com)  
+🔗 [8 boas práticas de gestão de documentos e arquivos digitais](https://acervonet.com.br/blog/8-boas-praticas-de-gestao-de-documentos-e-arquivos-digitais/?utm_source=chatgpt.com)  
+🔗 [Normas de nomenclatura e terminologia dos arquivos](https://suporte.museudapessoa.org/docs/normas-de-nomenclatura-e-terminologia-dos-arquivos/?utm_source=chatgpt.com)
+🔗 [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+🔗 [Self-Documenting Code](https://en.wikipedia.org/wiki/Self-documenting_code)
+
 
 🚀 **Mantenha seu código limpo, organizado e fácil de entender!**
 

@@ -2,7 +2,7 @@
 
 ## 1. Lógica de Programação (Logical Programming)
 
-Lógica de programação é a capacidade de pensar e planejar como um programa vai funcionar. Consiste em entender problemas e transformá-los em soluções que possam ser executadas por um computador.
+> Lógica de programação é a capacidade de pensar e planejar como um programa vai funcionar. Consiste em entender problemas e transformá-los em soluções que possam ser executadas por um computador.
 
 ### Estruturas Lógicas (Logical Structures)
 

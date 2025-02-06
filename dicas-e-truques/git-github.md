@@ -167,13 +167,21 @@ O git stash drop funciona exatamente como o pop, mas com uma simples diferença:
 - Quando o pull request é aceito, o GitHub cria um commit no branch principal do repositório e atualiza a branch principal para apontar para o commit do pull request.
 - O GitHub também permite que você revise e discuta o pull request antes de ser aceito. Isso permite que você garanta que o pull request esteja funcionando corretamente e que não há conflitos de merge.
 
-# 🛜 Sites úteis
+# 📶 Github Pages
 
-- [visualizing](https://git-school.github.io/visualizing-git/)
+- Github Pages é um serviço de hospedagem de sites estáticos hospedados no GitHub. Ele permite que você crie um site estático e publicar ele para o mundo.
+- Para criar um site estático, você precisa criar um arquivo `index.html` no diretório raiz do seu repositório.
+- Você pode usar HTML, CSS e JavaScript para criar sites estáticos.
+- Você pode hospedar seu site estático em um servidor de hospedagem de sites estáticos ou em um servidor de hospedagem de aplicativos.
 
-# Referencias 🔗
 
-- [Git push: enviando alterações locais para o remoto!](https://blog.betrybe.com/git/git-push/);
-- [Informações do Git](https://git-scm.com/docs/git-reset/pt_BR);MD001/heading-increment: Heading levels should only increment by one level at a time [Expected: h2; Actual: h3]
-- [Documentação oficial do Git](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-O-B%C3%A1sico-do-Git).
-- [Curso de Git e GitHub: dominando controle de versão de código](https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo)
+# Referências 🔗
+:pushpin: **Como fazer um bom README** - [Alura](https://www.alura.com.br/artigos/escrever-bom-readme)  
+:pushpin: **Curso de Git e GitHub: dominando controle de versão de código** - [Alura](https://cursos.alura.com.br/course/git-github-dominando-controle-versao-codigo)  
+:pushpin: **Documentação oficial do Git** - [Git SCM](https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-O-B%C3%A1sico-do-Git)  
+:pushpin: **Git push: enviando alterações locais para o remoto!** - [Blog da Trybe](https://blog.betrybe.com/git/git-push/)  
+:pushpin: **Github Pages como usar?** - [Documentação oficial](https://docs.github.com/pt/pages/getting-started-with-github-pages/about-github-pages)  
+:pushpin: **Informações do Git** - [Git SCM](https://git-scm.com/docs/git-reset/pt_BR)  
+:pushpin: **Visualização do Git** - [Visualizing Git](https://git-school.github.io/visualizing-git/)
+
+

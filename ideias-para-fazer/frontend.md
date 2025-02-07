@@ -1,4 +1,4 @@
-# **80 Projetos Frontend - 2025**
+# **💡 80 Projetos Frontend - 2025**
 
 Este repositório contém uma lista de 80 ideias de projetos frontend. As ideias são ideais para iniciantes e desenvolvedores que buscam aprimorar suas habilidades. Os projetos incluem desde a criação de sites e aplicativos interativos até sistemas mais complexos, cobrindo conceitos como UI/UX, consumo de APIs e design responsivo.
 

@@ -46,6 +46,9 @@ compartilhar recursos úteis.
 - **[Criando um Perfil com ROCKSEAT](https://github.com/ZFantods/rocketseat-Discover)**
 - **[Spotify](https://github.com/ZFantods/imersao-alura-spotify)**
   - [Github Pages](https://zfantods.github.io/imersao-alura-spotify/)
+- **[Alura Plus](https://github.com/ZFantods/alura-plus)**
+  - [Github Pages](https://zfantods.github.io/alura-plus/)
+  
 ##  💻 Back-End Development
 ### Node.js
 - **[Introdução ao Node.js](https://github.com/ZFantods/javascript-nodejs-primeira-biblioteca)**

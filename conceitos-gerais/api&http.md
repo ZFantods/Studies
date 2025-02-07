@@ -187,3 +187,11 @@ Quando queremos “transitar” um objeto JSON entre computadores na web atravé
 Por esse motivo, é bastante comum a operação de transformar um JSON em string e também reconverter um texto em JSON para que o objeto possa ser utilizado pelo programa.
 
 Você vai ter oportunidade de praticar mais com APIs e com o envio e recebimento de JSON nas próximas formações e cursos de Node.js.
+
+# Referências 🔗
+
+📌 **Diferenças entre GET e POST** - [Alura](https://www.alura.com.br/artigos/diferencas-entre-get-e-post)  
+📌 **HTTP: um guia completo sobre o que é e como funciona o protocolo da web** - [Alura](https://www.alura.com.br/artigos/http)  
+📌 **O que é uma API e como ela funciona? APIs para iniciantes** - [freeCodeCamp](https://www.freecodecamp.org/portuguese/news/o-que-e-uma-api-e-como-ela-funciona-apis-para-iniciantes/)  
+📌 **O que são GET, POST, PUT, PATCH e DELETE? Um walkthrough com JavaScript’s Fetch API** - [Medium](https://medium.com/@9cv9official/what-are-get-post-put-patch-delete-a-walkthrough-with-javascripts-fetch-api-17be31755d28)  
+📌 **O que são APIs?** - [Alura](https://www.alura.com.br/artigos/api)  

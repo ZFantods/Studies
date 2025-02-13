@@ -1,86 +1,96 @@
-# O que é um container?
+## 📌 O que é um Container?  
 
 Um container é um **recurso de virtualização que contém um aplicativo ou um serviço**. Ele é executado em um ambiente isolado, como um processo ou um thread, e é gerenciado pelo sistema operacional.
 
-Os containers são usados para:
+### 🚀 Benefícios dos Containers:
 
-- Implementar ambientes isolados e seguros para aplicativos e serviços.
-- Permitir a portabilidade de aplicativos e serviços.
-- Permitir a reutilização de recursos computacionais.
-- Facilitar a manutenção e a atualização de aplicativos e serviços.
+✅ Isolamento de aplicações  
+✅ Portabilidade entre diferentes ambientes  
+✅ Fácil integração em pipelines de CI/CD  
+✅ Segurança e controle de acesso  
 
-# Tipos de containers
+---
 
-Existem vários tipos de containers disponíveis, cada um com suas características e usos específicos.
+## 🐳 Docker
 
-## Docker
+O **Docker** é uma plataforma que permite criar, gerenciar e executar aplicações em containers. 
 
-O Docker é um a plataforma que **permite criar, gerenciar e executar aplicações em containers**. Containers são como máquinas virtuais leves que compartilham o kernel do sistema operacional, permitindo que você execute aplicativos e serviços em um ambiente isolado e seguro.
+### 📌 Principais Conceitos:
 
-### Principais conceitos
+🔹 **Imagem**: Um pacote de software contendo todos os arquivos e dependências para um aplicativo ou serviço.  
+🔹 **Container**: Uma instância de uma imagem, executada em um ambiente isolado.  
+🔹 **Docker Hub**: Repositório público de imagens Docker.  
+🔹 **Docker Compose**: Ferramenta para gerenciar múltiplos containers.  
+🔹 **Redes**: Mecanismo para comunicação entre containers.  
 
-- **Imagem**: Uma imagem é um pacote de software que contém todos os arquivos e dependências necessários para executar um aplicativo ou um serviço.
-- **Container**: Um container é uma instância de uma imagem. Ele é executado em um ambiente isolado e separado do sistema operacional.
-- **Docker Hub**: O Docker Hub é um repositório público de imagens Docker. Ele permite que você busque, baixe e use imagens de aplicativos e serviços.
-- **Docker Compose**: O Docker Compose é uma ferramenta para gerenciar containers Docker. Ele permite que você defina e configure aplicativos e serviços em containers de forma fácil e rápida.
-- **Redes**: Mecanismo para comunicação entre containers.
+---
 
-### Por que usar o Docker?
+## 🛠️ Primeiros Passos com Docker
 
-- Isolamento de aplicações;
-- Portabilidade entre diferentes ambientes;
-- Fácil integração em pipeline de CI/CD;
-- Segurança e controle de acesso.
+1️⃣ **Instale o Docker** em seu computador.  
+2️⃣ **Teste o Docker** executando o comando:
 
-#### Primeiros Passos com Docker
+```sh
+$ docker run hello-world
+```
 
-1. Instale o Docker em seu computador.
-2. **Testar o Docker**: Eexecute o comando
-`docker run hello-world` no terminal.
+3️⃣ **Listar containers:**
 
-- Esse comando baixa a imagem `hello-world` do Docker Hub e executa o aplicativo dentro do container.
-- Cria e executa um container a partir dela;
-- Exibe uma mensagem de boas-vindas.
+🔹 Containers em execução:  
+```sh
+$ docker ps
+```
+🔹 Todos os containers:  
+```sh
+$ docker ps -a
+```
 
-2 - Listar containers:
+4️⃣ **Baixar uma imagem do Docker Hub:**
 
-- Para ver os containers em execução, execute o comando `docker ps`.
+```sh
+$ docker pull nginx
+```
 
-- Para ver todos os containers, execute o comando `docker ps -a`.
+5️⃣ **Criar e executar um container do Nginx:**
 
-3 Baixe uma imagem do Docker Hub:
+```sh
+$ docker run --name nginx-container -d -p 80:80 nginx
+```
+🔗 O Nginx estará disponível em: [http://localhost:8080](http://localhost:8080)
 
-- Baixe uma imagem do Nginx:
-`docker pull nginx`
+6️⃣ **Parar e remover um container:**
 
-4 - Criar e executar um container do Nginx:
+```sh
+$ docker stop nginx-container
+$ docker rm nginx-container
+```
 
-- Inicie um container do Nginx:
-`docker run --name nginx-container -d -p 80:80 nginx`
-- O Nginx estará disponível em <http://localhost.8080>
+---
 
-5 - Parar e remover um container:
+## ⚡ Comandos Úteis do Docker
 
-- Pare o container:
-`docker stop nginx-container`
+| Comando | Descrição |
+|---------|-----------|
+| `docker --version` | Exibe a versão do Docker instalada |
+| `docker pull <imagem>` | Baixa uma imagem do Docker Hub |
+| `docker run <imagem>` | Inicia um container a partir de uma imagem |
+| `docker ps` | Lista os containers em execução |
+| `docker ps -a` | Lista todos os containers |
+| `docker stop <container>` | Para um container em execução |
+| `docker rm <container>` | Remove um container |
+| `docker rmi <imagem>` | Remove uma imagem |
+| `docker images` | Lista todas as imagens disponíveis |
+| `docker build -t <imagem> .` | Cria uma imagem a partir de um Dockerfile |
 
-- Remove o container:
-`docker rm nginx-container`
+---
 
-## Comandos Úteis do Docker
+## 📚 Referências
 
-Comando / Descrição
-`Docker --version`: Exibe a versão do Docker instalada.
-`docker pull <imagem>`: Baixa uma imagem do Docker Hub.
-`docker run <imagem>`: Inicia um container a partir de uma imagem.
-`docker ps`: Lista os containers em execução.
-`docker ps -a`: Lista todos os containers.
-`docker stop <container>`: Para o container em execução.
-`docker rm <container>`: Remove o container.
-`docker rmi <imagem>`: Remove uma imagem.
-`docker images`: Lista todas as imagens disponíveis.
-`docker build -t <imagem> .`: Cria uma imagem a partir de um arquivo Dockerfile.
+📌 **Começando com Docker** - [Alura](https://www.alura.com.br/artigos/comecando-com-docker)  
+📌 **Curso Docker Completo** - [YouTube](https://www.youtube.com/watch?v=3c-iBn73dDE)  
+📌 **Documentação Oficial do Docker** - [Docker Docs](https://docs.docker.com/engine/reference/commandline/cli/)  
+📌 **O mínimo que você precisa saber sobre Docker** - [YouTube](https://www.youtube.com/watch?v=ntbpIfS44Gw)  
+📌 **O que é Docker?** - [Twitter](https://x.com/programador_who/status/1875609788303716471)  
+📌 **Tutorial Docker para Iniciantes** - [YouTube](https://www.youtube.com/watch?v=DdoncfOdru8)  
 
-# Referências
-
-- [O que é docker](https://x.com/programador_who/status/1875609788303716471)
+---

@@ -66,17 +66,20 @@ Nos espaços, compartilhamos dicas, tutoriais e trocamos ideias sobre o mundo da
 - **[A partir do zero: HTML e CSS para projetos web](https://cursos.alura.com.br/formacao-html-css)**  
   - [Projeto no GitHub](https://github.com/ZFantods/AluraHtmlAndCss)  
   - [Visualização no GitHub Pages](https://zfantods.github.io/AluraHtmlAndCss/)  
+- **[Alura Books](https://github.com/ZFantods/alura-book)**
+  - [Github Pages](https://zfantods.github.io/alura-book/)
+- **[Alura Plus](https://github.com/ZFantods/alura-plus)**
+  - [Github Pages](https://zfantods.github.io/alura-plus/)
 - **[Criando um Perfil com ROCKSEAT](https://github.com/ZFantods/rocketseat-Discover)**
 - **[Spotify](https://github.com/ZFantods/imersao-alura-spotify)**
   - [Github Pages](https://zfantods.github.io/imersao-alura-spotify/)
-- **[Alura Plus](https://github.com/ZFantods/alura-plus)**
-  - [Github Pages](https://zfantods.github.io/alura-plus/)
-  
+
 ## 💻 Desenvolvimento Back-End
 ### Node.js
 - **[Introdução ao Node.js](https://github.com/ZFantods/javascript-nodejs-primeira-biblioteca)**
 - **[Jogo do número secreto](https://github.com/ZFantods/jogo-do-numero-secreto)**
   - [Visualização no Vercel](https://jogo-steel-pi-51.vercel.app/)
+
 
 # **SoloBuilds 🚀**  
 > Uma coleção de projetos pessoais onde exploro novos conceitos, experimento ideias e aplico minhas habilidades de programação para resolver problemas reais ou criar soluções inovadoras. Cada projeto representa um passo na minha jornada de aprendizado, destacando meu crescimento como desenvolvedor e meu compromisso com a melhoria contínua.

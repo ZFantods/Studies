@@ -49,8 +49,10 @@ Definem como os objetos interagem e se comunicam entre si.
 ✅ **Reduzem acoplamento e melhoram a legibilidade** 📖
 
 ## 🎓 **Referências e Leitura Recomendada**
-🔹 [Refactoring Guru](https://refactoring.guru/design-patterns)
-🔹 [Head First Design Patterns - Livro](https://www.oreilly.com/library/view/head-first-design/0596007124/)
-🔹 [Design Patterns na prática - Alura](https://www.alura.com.br/conteudos/design-patterns)
-🔹 [Design Patterns em JavaScript - MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Design_Patterns)
-🔹 [Vídeo explicativo sobre Design Patterns - YouTube](https://www.youtube.com/watch?v=NU_1StN5Tkk)
+
+:pushpin: **Design Patterns em JavaScript - MDN** - [MDN Design Patterns](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Design_Patterns)  
+:pushpin: **Design Patterns na prática - Alura** - [Alura Design Patterns](https://www.alura.com.br/conteudos/design-patterns)  
+:pushpin: **Head First Design Patterns - Livro** - [Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/)  
+:pushpin: **Vídeo explicativo sobre Design Patterns - YouTube** - [YouTube Design Patterns](https://www.youtube.com/watch?v=NU_1StN5Tkk)  
+:pushpin: **Refactoring Guru** - [Refactoring Guru](https://refactoring.guru/design-patterns)  
+

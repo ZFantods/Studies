@@ -43,10 +43,10 @@ Definem como os objetos interagem e se comunicam entre si.
 🔗 Saiba mais: [Observer - Refactoring Guru](https://refactoring.guru/design-patterns/observer)
 
 ## 🏆 **Por que usar Design Patterns?**
-✅ **Facilitam a reutilização de código** 📦
-✅ **Aumentam a manutenção e escalabilidade** 🔧
-✅ **Promovem boas práticas de desenvolvimento** 🎯
-✅ **Reduzem acoplamento e melhoram a legibilidade** 📖
+☑️ **Facilitam a reutilização de código** 📦
+☑️ **Aumentam a manutenção e escalabilidade** 🔧
+☑️ **Promovem boas práticas de desenvolvimento** 🎯
+☑️ **Reduzem acoplamento e melhoram a legibilidade** 📖
 
 ## 🎓 **Referências e Leitura Recomendada**
 

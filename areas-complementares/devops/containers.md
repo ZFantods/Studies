@@ -4,10 +4,10 @@ Um container é um **recurso de virtualização que contém um aplicativo ou um 
 
 ### 🚀 Benefícios dos Containers:
 
-✅ Isolamento de aplicações  
-✅ Portabilidade entre diferentes ambientes  
-✅ Fácil integração em pipelines de CI/CD  
-✅ Segurança e controle de acesso  
+☑️ Isolamento de aplicações  
+☑️ Portabilidade entre diferentes ambientes  
+☑️ Fácil integração em pipelines de CI/CD  
+☑️ Segurança e controle de acesso  
 
 ---
 

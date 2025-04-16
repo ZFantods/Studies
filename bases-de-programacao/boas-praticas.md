@@ -13,7 +13,7 @@
 
 # 📌 Convenções de Nomenclatura
 
-## ✅ CamelCase
+## ☑️ CamelCase
 📌 **Descrição:** Primeira palavra minúscula, as seguintes com inicial maiúscula. 
 🔹 **Usado para:** Funções, variáveis e métodos. 
 
@@ -27,7 +27,7 @@ calcularSoma()
 
 ---
 
-## ✅ PascalCase
+## ☑️ PascalCase
 📌 **Descrição:** Similar ao CamelCase, mas a primeira letra também é maiúscula.
 🔹 **Usado para:** Classes e tipos de dados.
 
@@ -41,7 +41,7 @@ ContaBancaria
 
 ---
 
-## ✅ snake_case
+## ☑️ snake_case
 📌 **Descrição:** Palavras separadas por `_`, todas em minúsculas.
 🔹 **Usado para:** Variáveis, funções e arquivos.
 
@@ -55,7 +55,7 @@ calcular_soma()
 
 ---
 
-## ✅ UPPER_CASE
+## ☑️ UPPER_CASE
 📌 **Descrição:** Letras maiúsculas com `_` separando palavras.
 🔹 **Usado para:** Constantes.
 
@@ -69,7 +69,7 @@ MAX_VALOR = 100
 
 ---
 
-## ✅ kebab-case
+## ☑️ kebab-case
 📌 **Descrição:** Letras minúsculas separadas por `-`.
 🔹 **Usado para:** Arquivos, URLs.
 
